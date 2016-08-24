@@ -22,21 +22,35 @@
     backgroundImageView.alpha  = 0.9;
     backgroundImageView.contentMode = UIViewContentModeScaleToFill;
     [self.view insertSubview:backgroundImageView atIndex:0];
+//    [self.view addSubview:backgroundImageView];
+    
+    
+    self.foodImageItems = [[NSArray alloc]initWithObjects:@"CV1.png", @"CV2.png", @"CV3.png", @"CV4.png", @"CV5.png", @"CV6.png", @"CV8.jpg", nil];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section
+{
+    return self.foodImageItems.count;
 }
-*/
+
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath
+{
+    ImageCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"myCell" forIndexPath:indexPath];
+    
+    cell.imageView.image = [UIImage imageNamed:self.foodImageItems[indexPath.row]];
+    
+    return cell;
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath
+{
+ self.logoImage.image = [UIImage imageNamed:self.foodImageItems[indexPath.row]];
+    //programatically make the picture bigger
+}
 
 @end

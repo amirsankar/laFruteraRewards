@@ -43,7 +43,7 @@
 
 - (IBAction)mapButton:(id)sender {
     [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://maps.apple.com/?address=2430,NE+13th+Ave,Fort+Lauderdale,FL"]];
-   // 1,Infinite+Loop,Cupertino,California
+   
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {

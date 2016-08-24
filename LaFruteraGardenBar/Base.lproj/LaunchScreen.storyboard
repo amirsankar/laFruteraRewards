@@ -16,7 +16,20 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lgLogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="oCj-Hh-wuC">
+                                <rect key="frame" x="125" y="125" width="350" height="350"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="350" id="j94-wc-znu"/>
+                                    <constraint firstAttribute="height" constant="350" id="mXk-bW-Xxe"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.91367489867657514" blue="0.80188588733114563" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="oCj-Hh-wuC" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="6FZ-Bn-Yil"/>
+                            <constraint firstItem="oCj-Hh-wuC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="XkF-P6-1zL"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +37,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="lgLogo.jpg" width="805" height="805"/>
+    </resources>
 </document>

@@ -18,6 +18,7 @@
 		3907C85E1D64E1A400AF473A /* yelpIcon22.png in Resources */ = {isa = PBXBuildFile; fileRef = 3907C85D1D64E1A400AF473A /* yelpIcon22.png */; };
 		3907C8631D64E7F700AF473A /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3907C8621D64E7F700AF473A /* WebKit.framework */; };
 		3907C8661D64ED5F00AF473A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3907C8651D64ED5F00AF473A /* WebViewController.m */; };
+		392C8EC51D6CCC8E002B4241 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 392C8EC41D6CCC8E002B4241 /* ImageCell.m */; };
 		392F19F01D660A390019B114 /* callRingRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 392F19EF1D660A390019B114 /* callRingRing.png */; };
 		392F19F21D660AAA0019B114 /* callRing.png in Resources */ = {isa = PBXBuildFile; fileRef = 392F19F11D660AAA0019B114 /* callRing.png */; };
 		3955EFCD1D63910300B47396 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955EFCC1D63910300B47396 /* main.m */; };
@@ -31,6 +32,17 @@
 		3955EFF01D63937200B47396 /* Loyalty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955EFEF1D63937200B47396 /* Loyalty.m */; };
 		3955EFF21D63989B00B47396 /* lgback2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3955EFF11D63989B00B47396 /* lgback2.png */; };
 		3955EFF41D6398C400B47396 /* lgLogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3955EFF31D6398C400B47396 /* lgLogo.jpg */; };
+		395DBD961D6DF66E0075FD7D /* CV8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 395DBD951D6DF66E0075FD7D /* CV8.jpg */; };
+		395DBD981D6DF67A0075FD7D /* CV1.png in Resources */ = {isa = PBXBuildFile; fileRef = 395DBD971D6DF67A0075FD7D /* CV1.png */; };
+		395DBD9A1D6DF6830075FD7D /* CV2.png in Resources */ = {isa = PBXBuildFile; fileRef = 395DBD991D6DF6830075FD7D /* CV2.png */; };
+		395DBD9C1D6DF68B0075FD7D /* CV3.png in Resources */ = {isa = PBXBuildFile; fileRef = 395DBD9B1D6DF68B0075FD7D /* CV3.png */; };
+		395DBD9E1D6DF6940075FD7D /* CV5.png in Resources */ = {isa = PBXBuildFile; fileRef = 395DBD9D1D6DF6940075FD7D /* CV5.png */; };
+		395DBDA01D6DF6A00075FD7D /* CV4.png in Resources */ = {isa = PBXBuildFile; fileRef = 395DBD9F1D6DF6A00075FD7D /* CV4.png */; };
+		395DBDA21D6DF6A70075FD7D /* CV5.png in Resources */ = {isa = PBXBuildFile; fileRef = 395DBDA11D6DF6A70075FD7D /* CV5.png */; };
+		395DBDA41D6DF6BA0075FD7D /* CV6.png in Resources */ = {isa = PBXBuildFile; fileRef = 395DBDA31D6DF6BA0075FD7D /* CV6.png */; };
+		395DBDA61D6DF6C60075FD7D /* CV7.png in Resources */ = {isa = PBXBuildFile; fileRef = 395DBDA51D6DF6C60075FD7D /* CV7.png */; };
+		39848DFB1D6B69EB005898FC /* PHONEicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 39848DFA1D6B69EB005898FC /* PHONEicon.png */; };
+		39848DFD1D6B72D1005898FC /* lfgFood.png in Resources */ = {isa = PBXBuildFile; fileRef = 39848DFC1D6B72D1005898FC /* lfgFood.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +58,8 @@
 		3907C8621D64E7F700AF473A /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		3907C8641D64ED5F00AF473A /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 		3907C8651D64ED5F00AF473A /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		392C8EC31D6CCC8E002B4241 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		392C8EC41D6CCC8E002B4241 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 		392F19EF1D660A390019B114 /* callRingRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = callRingRing.png; path = ../../../../Documents/callRingRing.png; sourceTree = "<group>"; };
 		392F19F11D660AAA0019B114 /* callRing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = callRing.png; path = ../../../../Documents/callRing.png; sourceTree = "<group>"; };
 		3955EFC81D63910300B47396 /* LaFruteraGardenBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaFruteraGardenBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -66,6 +80,17 @@
 		3955EFEF1D63937200B47396 /* Loyalty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loyalty.m; sourceTree = "<group>"; };
 		3955EFF11D63989B00B47396 /* lgback2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lgback2.png; sourceTree = "<group>"; };
 		3955EFF31D6398C400B47396 /* lgLogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lgLogo.jpg; sourceTree = "<group>"; };
+		395DBD951D6DF66E0075FD7D /* CV8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = CV8.jpg; path = ../../../CV8.jpg; sourceTree = "<group>"; };
+		395DBD971D6DF67A0075FD7D /* CV1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CV1.png; path = ../../../../Documents/CV1.png; sourceTree = "<group>"; };
+		395DBD991D6DF6830075FD7D /* CV2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CV2.png; path = ../../../../Documents/CV2.png; sourceTree = "<group>"; };
+		395DBD9B1D6DF68B0075FD7D /* CV3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CV3.png; path = ../../../../Documents/CV3.png; sourceTree = "<group>"; };
+		395DBD9D1D6DF6940075FD7D /* CV5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CV5.png; path = ../../../../Documents/CV5.png; sourceTree = "<group>"; };
+		395DBD9F1D6DF6A00075FD7D /* CV4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CV4.png; path = ../../../../Documents/CV4.png; sourceTree = "<group>"; };
+		395DBDA11D6DF6A70075FD7D /* CV5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CV5.png; path = ../../../../Documents/CV5.png; sourceTree = "<group>"; };
+		395DBDA31D6DF6BA0075FD7D /* CV6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CV6.png; path = ../../../../Documents/CV6.png; sourceTree = "<group>"; };
+		395DBDA51D6DF6C60075FD7D /* CV7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = CV7.png; path = ../../../../Documents/CV7.png; sourceTree = "<group>"; };
+		39848DFA1D6B69EB005898FC /* PHONEicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PHONEicon.png; path = ../../../PHONEicon.png; sourceTree = "<group>"; };
+		39848DFC1D6B72D1005898FC /* lfgFood.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lfgFood.png; path = "../../../../Library/Mobile Documents/com~apple~Preview/Documents/lfgFood.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +137,8 @@
 				3955EFEF1D63937200B47396 /* Loyalty.m */,
 				3907C8641D64ED5F00AF473A /* WebViewController.h */,
 				3907C8651D64ED5F00AF473A /* WebViewController.m */,
+				392C8EC31D6CCC8E002B4241 /* ImageCell.h */,
+				392C8EC41D6CCC8E002B4241 /* ImageCell.m */,
 				3955EFD71D63910300B47396 /* Main.storyboard */,
 				3955EFDA1D63910300B47396 /* Assets.xcassets */,
 				3907C84D1D64CCB400AF473A /* galleryPic2.png */,
@@ -128,6 +155,8 @@
 		3955EFCB1D63910300B47396 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				39848DFC1D6B72D1005898FC /* lfgFood.png */,
+				39848DFA1D6B69EB005898FC /* PHONEicon.png */,
 				392F19EF1D660A390019B114 /* callRingRing.png */,
 				3907C8551D64D5AC00AF473A /* facebookIcon.png */,
 				3907C8571D64D76500AF473A /* yelpIcon.png */,
@@ -137,6 +166,15 @@
 				3955EFF11D63989B00B47396 /* lgback2.png */,
 				3907C8591D64D7E300AF473A /* yelpLogo.png */,
 				3955EFF31D6398C400B47396 /* lgLogo.jpg */,
+				395DBD991D6DF6830075FD7D /* CV2.png */,
+				395DBD9F1D6DF6A00075FD7D /* CV4.png */,
+				395DBDA51D6DF6C60075FD7D /* CV7.png */,
+				395DBDA31D6DF6BA0075FD7D /* CV6.png */,
+				395DBD9D1D6DF6940075FD7D /* CV5.png */,
+				395DBD9B1D6DF68B0075FD7D /* CV3.png */,
+				395DBD971D6DF67A0075FD7D /* CV1.png */,
+				395DBDA11D6DF6A70075FD7D /* CV5.png */,
+				395DBD951D6DF66E0075FD7D /* CV8.jpg */,
 				3955EFCC1D63910300B47396 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -201,19 +239,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				392F19F01D660A390019B114 /* callRingRing.png in Resources */,
+				39848DFB1D6B69EB005898FC /* PHONEicon.png in Resources */,
+				395DBD9C1D6DF68B0075FD7D /* CV3.png in Resources */,
+				395DBDA21D6DF6A70075FD7D /* CV5.png in Resources */,
 				3907C8501D64CD1A00AF473A /* utensilTab.png in Resources */,
+				39848DFD1D6B72D1005898FC /* lfgFood.png in Resources */,
 				3907C84E1D64CCB400AF473A /* galleryPic2.png in Resources */,
 				3907C85A1D64D7E300AF473A /* yelpLogo.png in Resources */,
 				3955EFF41D6398C400B47396 /* lgLogo.jpg in Resources */,
 				3907C85E1D64E1A400AF473A /* yelpIcon22.png in Resources */,
 				3907C8541D64CE1E00AF473A /* loyaltyTab.png in Resources */,
+				395DBD9A1D6DF6830075FD7D /* CV2.png in Resources */,
 				3907C8561D64D5AC00AF473A /* facebookIcon.png in Resources */,
+				395DBD961D6DF66E0075FD7D /* CV8.jpg in Resources */,
+				395DBD9E1D6DF6940075FD7D /* CV5.png in Resources */,
+				395DBDA41D6DF6BA0075FD7D /* CV6.png in Resources */,
 				3907C8521D64CDA500AF473A /* contactTab.png in Resources */,
+				395DBDA01D6DF6A00075FD7D /* CV4.png in Resources */,
+				395DBD981D6DF67A0075FD7D /* CV1.png in Resources */,
 				3955EFF21D63989B00B47396 /* lgback2.png in Resources */,
 				3955EFDE1D63910300B47396 /* LaunchScreen.storyboard in Resources */,
 				392F19F21D660AAA0019B114 /* callRing.png in Resources */,
 				3907C85C1D64D86500AF473A /* yelpSquare.png in Resources */,
 				3955EFDB1D63910300B47396 /* Assets.xcassets in Resources */,
+				395DBDA61D6DF6C60075FD7D /* CV7.png in Resources */,
 				3907C8581D64D76500AF473A /* yelpIcon.png in Resources */,
 				3955EFD91D63910300B47396 /* Main.storyboard in Resources */,
 			);
@@ -227,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3955EFED1D63931F00B47396 /* Gallery.m in Sources */,
+				392C8EC51D6CCC8E002B4241 /* ImageCell.m in Sources */,
 				3955EFE71D6392B700B47396 /* Menu.m in Sources */,
 				3907C8661D64ED5F00AF473A /* WebViewController.m in Sources */,
 				3955EFF01D63937200B47396 /* Loyalty.m in Sources */,
