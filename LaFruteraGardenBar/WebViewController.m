@@ -17,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    WKWebView *view = [[WKWebView alloc] initWithFrame:self.view.bounds];
+    UIWebView *view = [[UIWebView alloc] initWithFrame:self.view.bounds];
     [view loadRequest:[NSURLRequest requestWithURL:[NSURL URLWithString:self.urlString]]];
     [self.webView addSubview: view];
 }

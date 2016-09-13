@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImage *backgroundImage = [UIImage imageNamed:@"lgback2.png"];
+    UIImage *backgroundImage = [UIImage imageNamed:@"lfBackround2.2.2"];
     UIImageView *backgroundImageView =  [[UIImageView alloc]initWithFrame:self.view.frame];
     backgroundImageView.image = backgroundImage;
     backgroundImageView.alpha  = 0.9;
@@ -53,6 +53,8 @@
         self.webVC.urlString = @"https://www.facebook.com/Lafruteragardenbar/?fref=ts";
     } else if ([segue.identifier isEqualToString:@"yelp"]){
          self.webVC.urlString = @"https://www.yelp.com/biz/la-frutera-garden-bar-wilton-manors";
+    } else {
+        self.webVC.urlString = @"https://www.instagram.com/explore/locations/1030667704/";
     }
 }
 @end

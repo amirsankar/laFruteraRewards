@@ -14,6 +14,7 @@
 @property(strong, nonatomic) NSArray *foodImageItems;
 @property (weak, nonatomic) IBOutlet UIImageView *logoImage;
 @property (strong, nonatomic) IBOutlet UICollectionView *collectionView;
+@property (strong, nonatomic) IBOutlet UIImageView *secondImageView;
 
 
 @end

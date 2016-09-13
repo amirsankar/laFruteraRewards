@@ -16,7 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    UIImage *backgroundImage = [UIImage imageNamed:@"lgback2.png"];
+    UIImage *backgroundImage = [UIImage imageNamed:@"lfBackround2.2.2"];
     UIImageView *backgroundImageView =  [[UIImageView alloc]initWithFrame:self.view.frame];
     backgroundImageView.image = backgroundImage;
     backgroundImageView.alpha  = 0.9;

@@ -18,47 +18,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sNz-u2-zxl">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sNz-u2-zxl">
                                 <rect key="frame" x="0.0" y="30" width="600" height="60"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="La Frutera Garden Bar" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gsu-sr-dj4">
-                                        <rect key="frame" x="186" y="4" width="230" height="30"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="Buw-aM-cpd"/>
-                                            <constraint firstAttribute="width" constant="230" id="h74-7U-6JE"/>
-                                        </constraints>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="A Healthier Option to Latin Food" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wX4-Y7-fAg">
-                                        <rect key="frame" x="186" y="25" width="229" height="30"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="OTo-0c-sLP"/>
-                                            <constraint firstAttribute="width" constant="229" id="yzt-KB-Khb"/>
-                                        </constraints>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Frutera Garden Bar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ghi-Vn-bhc">
+                                        <rect key="frame" x="188" y="9" width="223" height="25"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Healthier Option to Latin Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tX1-Gg-Ree">
+                                        <rect key="frame" x="200" y="34" width="200" height="17"/>
                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.75926724137931034" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="0TJ-yD-Ggc"/>
-                                    <constraint firstItem="Gsu-sr-dj4" firstAttribute="top" secondItem="sNz-u2-zxl" secondAttribute="top" constant="4" id="CsV-pQ-zM3"/>
+                                    <constraint firstItem="tX1-Gg-Ree" firstAttribute="centerX" secondItem="sNz-u2-zxl" secondAttribute="centerX" id="9nT-We-cG1"/>
                                     <constraint firstAttribute="width" constant="600" id="HYU-Ly-JcP"/>
-                                    <constraint firstItem="wX4-Y7-fAg" firstAttribute="top" secondItem="sNz-u2-zxl" secondAttribute="top" constant="25" id="Rc5-w6-dMy"/>
-                                    <constraint firstItem="wX4-Y7-fAg" firstAttribute="centerX" secondItem="sNz-u2-zxl" secondAttribute="centerX" id="sm7-UY-VeK"/>
-                                    <constraint firstItem="Gsu-sr-dj4" firstAttribute="centerX" secondItem="sNz-u2-zxl" secondAttribute="centerX" constant="1" id="tzQ-kL-HGJ"/>
+                                    <constraint firstItem="ghi-Vn-bhc" firstAttribute="centerX" secondItem="sNz-u2-zxl" secondAttribute="centerX" id="lfO-Gq-ihZ"/>
+                                    <constraint firstItem="tX1-Gg-Ree" firstAttribute="top" secondItem="ghi-Vn-bhc" secondAttribute="bottom" id="oZg-EI-Dmk"/>
+                                    <constraint firstItem="ghi-Vn-bhc" firstAttribute="top" secondItem="sNz-u2-zxl" secondAttribute="top" constant="9" id="zT3-HW-H2h"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lgLogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="xgd-Et-bcv">
-                                <rect key="frame" x="185" y="100" width="231" height="236"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lfLofoPng" translatesAutoresizingMaskIntoConstraints="NO" id="xgd-Et-bcv">
+                                <rect key="frame" x="196" y="95" width="208" height="257"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="236" id="KHT-KZ-J60"/>
-                                    <constraint firstAttribute="width" constant="231" id="ytJ-bh-8bv"/>
+                                    <constraint firstAttribute="height" constant="257" id="KHT-KZ-J60"/>
+                                    <constraint firstAttribute="width" constant="208" id="ytJ-bh-8bv"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -67,66 +57,24 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aY7-2g-mxC">
-                                <rect key="frame" x="195" y="346" width="211" height="55"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aY7-2g-mxC">
+                                <rect key="frame" x="198" y="357" width="205" height="50"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="2430 NE 13th Ave, Fort Lauderdale, FL 33305" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sDj-SS-InU">
-                                        <rect key="frame" x="11" y="1" width="190" height="55"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="190" id="EZk-6p-XXa"/>
-                                            <constraint firstAttribute="height" constant="55" id="Z6k-qu-YBA"/>
-                                        </constraints>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="sDj-SS-InU" firstAttribute="centerX" secondItem="aY7-2g-mxC" secondAttribute="centerX" id="G5c-Zq-bxJ"/>
-                                    <constraint firstItem="sDj-SS-InU" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="top" constant="1" id="OWP-Mp-Qq0"/>
-                                    <constraint firstAttribute="height" constant="55" id="WqK-1w-CMB"/>
-                                    <constraint firstAttribute="width" constant="211" id="yIq-Ln-soe"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oqR-gN-xYE">
-                                <rect key="frame" x="195" y="411" width="211" height="55"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="lA0-s9-ybg"/>
-                                    <constraint firstAttribute="width" constant="211" id="qHX-FN-8GR"/>
-                                </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                        <integer key="value" value="15"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xdI-c2-XA7">
-                                <rect key="frame" x="201" y="411" width="198" height="55"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="55" id="c0a-rm-dkb"/>
-                                    <constraint firstAttribute="width" constant="198" id="c0y-Aw-dLl"/>
-                                </constraints>
-                                <string key="text">Mon-Sun:	
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaF-Ty-wBk">
+                                        <rect key="frame" x="21" y="6" width="162" height="40"/>
+                                        <string key="text">Mon. - Sun.
 8:00 a.m. - 5:00 p.m.</string>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aGo-QT-hem">
-                                <rect key="frame" x="195" y="476" width="211" height="48"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.76064116379310343" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="0Js-SE-D54"/>
-                                    <constraint firstAttribute="width" constant="211" id="85V-Re-4sa"/>
+                                    <constraint firstAttribute="height" constant="50" id="WqK-1w-CMB"/>
+                                    <constraint firstItem="LaF-Ty-wBk" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="top" constant="6" id="esj-KD-3VN"/>
+                                    <constraint firstItem="LaF-Ty-wBk" firstAttribute="centerX" secondItem="aY7-2g-mxC" secondAttribute="centerX" id="y4L-FF-bM4"/>
+                                    <constraint firstAttribute="width" constant="205" id="yIq-Ln-soe"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -134,39 +82,54 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="754-701-5977" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Buu-oR-NA9">
-                                <rect key="frame" x="203" y="482" width="195" height="31"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oqR-gN-xYE">
+                                <rect key="frame" x="198" y="413" width="205" height="45"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.7629849137931034" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="195" id="6Ns-zE-qbR"/>
-                                    <constraint firstAttribute="height" constant="31" id="uJx-wm-I1T"/>
+                                    <constraint firstAttribute="height" constant="45" id="lA0-s9-ybg"/>
+                                    <constraint firstAttribute="width" constant="205" id="qHX-FN-8GR"/>
                                 </constraints>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="16"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                            </textView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhA-zh-twa">
-                                <rect key="frame" x="200" y="483" width="197" height="30"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aGo-QT-hem">
+                                <rect key="frame" x="170" y="464" width="260" height="55"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.75549568965517233" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="Ujg-gg-KMb"/>
-                                    <constraint firstAttribute="width" constant="197" id="VPS-O9-fVt"/>
+                                    <constraint firstAttribute="height" constant="55" id="Gwk-zX-Nef"/>
+                                    <constraint firstAttribute="width" constant="260" id="epM-ax-UPw"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhA-zh-twa">
+                                <rect key="frame" x="198" y="415" width="205" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="205" id="IXM-0L-3Ap"/>
+                                    <constraint firstAttribute="height" constant="41" id="vm2-os-xUx"/>
                                 </constraints>
                                 <connections>
                                     <action selector="callButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="hpH-Tw-tkV"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebookIcon.png" translatesAutoresizingMaskIntoConstraints="NO" id="OSg-O2-HyL">
-                                <rect key="frame" x="213" y="534" width="75" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="facebook22" translatesAutoresizingMaskIntoConstraints="NO" id="OSg-O2-HyL">
+                                <rect key="frame" x="173" y="526" width="75" height="76"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="76" id="Pov-QD-KVO"/>
-                                    <constraint firstAttribute="width" constant="75" id="l2N-45-C04"/>
+                                    <constraint firstAttribute="width" constant="75" id="Dgm-2p-oFF"/>
+                                    <constraint firstAttribute="height" constant="76" id="wey-Cb-Gen"/>
                                 </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yelpIcon22.png" translatesAutoresizingMaskIntoConstraints="NO" id="Jwx-rY-sJl">
-                                <rect key="frame" x="313" y="534" width="75" height="76"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yelp22" translatesAutoresizingMaskIntoConstraints="NO" id="Jwx-rY-sJl">
+                                <rect key="frame" x="353" y="526" width="75" height="76"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="75" id="4uo-AV-31C"/>
-                                    <constraint firstAttribute="height" constant="76" id="FkT-Xa-ab5"/>
+                                    <constraint firstAttribute="width" constant="75" id="ATU-Uj-Vwb"/>
+                                    <constraint firstAttribute="height" constant="76" id="tft-BS-ai4"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -176,10 +139,10 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IhM-Qh-bzY">
-                                <rect key="frame" x="220" y="541" width="74" height="74"/>
+                                <rect key="frame" x="173" y="526" width="75" height="75"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="74" id="QVy-nB-Nnr"/>
-                                    <constraint firstAttribute="height" constant="74" id="mgd-sG-3MM"/>
+                                    <constraint firstAttribute="height" constant="75" id="r1s-iu-lQc"/>
+                                    <constraint firstAttribute="width" constant="75" id="vuG-6h-0Pn"/>
                                 </constraints>
                                 <connections>
                                     <action selector="facebookButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="ZTP-ev-419"/>
@@ -187,29 +150,67 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ukv-HP-VCM">
-                                <rect key="frame" x="313" y="541" width="74" height="74"/>
+                                <rect key="frame" x="353" y="526" width="75" height="75"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="74" id="fZ0-iO-rpi"/>
-                                    <constraint firstAttribute="width" constant="74" id="gde-XC-cNX"/>
+                                    <constraint firstAttribute="height" constant="75" id="BZ7-GW-WfH"/>
+                                    <constraint firstAttribute="width" constant="75" id="tKS-WX-FxX"/>
                                 </constraints>
                                 <connections>
                                     <action selector="yelpButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="5l5-bM-scb"/>
                                     <segue destination="Onf-NU-qYx" kind="show" identifier="yelp" id="Oqx-XX-bPQ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PHONEicon.png" translatesAutoresizingMaskIntoConstraints="NO" id="1RS-XG-jB1">
-                                <rect key="frame" x="204" y="485" width="30" height="30"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="754-701-5977" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6L-eV-Ae8">
+                                <rect key="frame" x="247" y="426" width="106" height="20"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="instagram22" translatesAutoresizingMaskIntoConstraints="NO" id="q2j-Lx-32a">
+                                <rect key="frame" x="263" y="526" width="75" height="75"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="30" id="WPu-Ty-fej"/>
-                                    <constraint firstAttribute="height" constant="30" id="o5x-xc-VIk"/>
+                                    <constraint firstAttribute="width" constant="75" id="2ft-r3-AUc"/>
+                                    <constraint firstAttribute="height" constant="75" id="AZy-cv-uCl"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57r-H0-G6L">
-                                <rect key="frame" x="202" y="355" width="196" height="41"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7v6-0n-Z0y">
+                                <rect key="frame" x="263" y="526" width="75" height="75"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="196" id="cf5-KM-SOk"/>
-                                    <constraint firstAttribute="height" constant="41" id="qrr-eF-Csy"/>
+                                    <constraint firstAttribute="width" constant="75" id="Vnk-fy-r4K"/>
+                                    <constraint firstAttribute="height" constant="75" id="aed-ee-xDB"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="Onf-NU-qYx" kind="show" identifier="instagram" id="6la-nE-ntN"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locationIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gl3-jR-HCB">
+                                <rect key="frame" x="180" y="480" width="24" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="0df-2d-UGP"/>
+                                    <constraint firstAttribute="height" constant="25" id="GBN-t4-sbC"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phoneIcon2" translatesAutoresizingMaskIntoConstraints="NO" id="1RS-XG-jB1">
+                                <rect key="frame" x="212" y="425" width="22" height="22"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="22" id="AqV-8B-clt"/>
+                                    <constraint firstAttribute="width" constant="22" id="j4c-vb-ZDR"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9B-4e-Ely">
+                                <rect key="frame" x="206" y="472" width="188" height="40"/>
+                                <string key="text">2430 NE 13th Ave, Fort 
+Lauderdale, FL 33305</string>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57r-H0-G6L">
+                                <rect key="frame" x="173" y="466" width="255" height="52"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="52" id="ZFv-GX-iZq"/>
+                                    <constraint firstAttribute="width" constant="255" id="jpp-NX-L8K"/>
                                 </constraints>
                                 <connections>
                                     <action selector="mapButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="xvY-lF-fVG"/>
@@ -219,34 +220,40 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="xgd-Et-bcv" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="0Jb-hr-KYe"/>
-                            <constraint firstItem="aY7-2g-mxC" firstAttribute="top" secondItem="xgd-Et-bcv" secondAttribute="bottom" constant="10" id="4s4-eX-nL0"/>
+                            <constraint firstItem="57r-H0-G6L" firstAttribute="top" secondItem="oqR-gN-xYE" secondAttribute="bottom" constant="8" id="1o8-sN-wXf"/>
+                            <constraint firstItem="gl3-jR-HCB" firstAttribute="top" secondItem="oqR-gN-xYE" secondAttribute="bottom" constant="22" id="2iT-n4-NnT"/>
+                            <constraint firstItem="aY7-2g-mxC" firstAttribute="top" secondItem="xgd-Et-bcv" secondAttribute="bottom" constant="5" id="4s4-eX-nL0"/>
+                            <constraint firstItem="OSg-O2-HyL" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-90" id="5H7-72-DfK"/>
                             <constraint firstItem="aY7-2g-mxC" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="6aj-zJ-a78"/>
-                            <constraint firstItem="OhA-zh-twa" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-1.5" id="9an-en-mjg"/>
-                            <constraint firstItem="OSg-O2-HyL" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-49.5" id="Do6-4w-9od"/>
-                            <constraint firstItem="1RS-XG-jB1" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-81" id="Fen-Uc-1KH"/>
+                            <constraint firstItem="L6L-eV-Ae8" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="AVd-pi-4ak"/>
+                            <constraint firstItem="gl3-jR-HCB" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-108" id="Ex9-aR-mzH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sNz-u2-zxl" secondAttribute="trailing" constant="-20" id="IYb-tT-7At"/>
                             <constraint firstItem="sNz-u2-zxl" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="10" id="Ioq-al-tGL"/>
-                            <constraint firstItem="IhM-Qh-bzY" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-43" id="Itn-uk-Vxg"/>
-                            <constraint firstItem="57r-H0-G6L" firstAttribute="top" secondItem="xgd-Et-bcv" secondAttribute="bottom" constant="19" id="JXR-c0-DxO"/>
-                            <constraint firstItem="Buu-oR-NA9" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="Obv-vU-ruz"/>
-                            <constraint firstItem="OhA-zh-twa" firstAttribute="top" secondItem="xdI-c2-XA7" secondAttribute="bottom" constant="17" id="Vf7-gL-Gyr"/>
-                            <constraint firstItem="Ukv-HP-VCM" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="17" id="X3W-V4-9Tj"/>
-                            <constraint firstItem="Jwx-rY-sJl" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="50.5" id="XVV-pc-BGc"/>
-                            <constraint firstItem="1RS-XG-jB1" firstAttribute="top" secondItem="oqR-gN-xYE" secondAttribute="bottom" constant="19" id="YLH-C8-jku"/>
-                            <constraint firstItem="Buu-oR-NA9" firstAttribute="top" secondItem="xdI-c2-XA7" secondAttribute="bottom" constant="16" id="ZQW-cz-pkP"/>
+                            <constraint firstItem="OhA-zh-twa" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="JLU-zC-KcX"/>
+                            <constraint firstItem="Ukv-HP-VCM" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="90" id="JoH-dG-8EX"/>
+                            <constraint firstItem="aGo-QT-hem" firstAttribute="top" secondItem="oqR-gN-xYE" secondAttribute="bottom" constant="6" id="LH2-XL-5Uf"/>
+                            <constraint firstItem="IhM-Qh-bzY" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-90" id="NPL-a9-ItL"/>
+                            <constraint firstItem="Jwx-rY-sJl" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="7" id="ONz-Bi-0m7"/>
+                            <constraint firstItem="Ukv-HP-VCM" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="7" id="OX6-mK-LtR"/>
+                            <constraint firstItem="L6L-eV-Ae8" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="19" id="TrZ-h0-xz6"/>
+                            <constraint firstItem="aGo-QT-hem" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="VBw-dC-P4x"/>
+                            <constraint firstItem="OSg-O2-HyL" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="7" id="VId-MI-Xqt"/>
+                            <constraint firstItem="Jwx-rY-sJl" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="90" id="Vew-u5-6yh"/>
+                            <constraint firstItem="1RS-XG-jB1" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-77" id="Wcv-Ny-4Uy"/>
                             <constraint firstItem="sNz-u2-zxl" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-20" id="ahM-aB-ZoM"/>
-                            <constraint firstItem="aGo-QT-hem" firstAttribute="top" secondItem="xdI-c2-XA7" secondAttribute="bottom" constant="10" id="eiq-2O-Mnc"/>
-                            <constraint firstItem="aGo-QT-hem" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="fRq-La-cf5"/>
-                            <constraint firstItem="oqR-gN-xYE" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="10" id="gRx-4P-fwZ"/>
-                            <constraint firstItem="OSg-O2-HyL" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="10" id="kPH-9T-SPO"/>
+                            <constraint firstItem="oqR-gN-xYE" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="6" id="gRx-4P-fwZ"/>
+                            <constraint firstItem="7v6-0n-Z0y" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="i1E-pM-Qbs"/>
+                            <constraint firstItem="1RS-XG-jB1" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="18" id="lh6-eO-Pgj"/>
+                            <constraint firstItem="q2j-Lx-32a" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="mRv-hT-Tgi"/>
                             <constraint firstItem="oqR-gN-xYE" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="o8N-wU-AZG"/>
-                            <constraint firstItem="xdI-c2-XA7" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="oMd-5d-DAC"/>
-                            <constraint firstItem="Ukv-HP-VCM" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="50" id="pgW-bW-ttI"/>
-                            <constraint firstItem="57r-H0-G6L" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="spz-F8-Vw8"/>
-                            <constraint firstItem="Jwx-rY-sJl" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="10" id="t6u-cb-w0K"/>
-                            <constraint firstItem="xdI-c2-XA7" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="10" id="zGk-v4-J5O"/>
-                            <constraint firstItem="xgd-Et-bcv" firstAttribute="top" secondItem="sNz-u2-zxl" secondAttribute="bottom" constant="10" id="zYC-Q6-9ti"/>
-                            <constraint firstItem="IhM-Qh-bzY" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="17" id="zsN-vj-GRJ"/>
+                            <constraint firstItem="W9B-4e-Ely" firstAttribute="top" secondItem="oqR-gN-xYE" secondAttribute="bottom" constant="14" id="oeU-fw-UIe"/>
+                            <constraint firstItem="W9B-4e-Ely" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="ojp-5S-X8B"/>
+                            <constraint firstItem="57r-H0-G6L" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="thE-5y-v4n"/>
+                            <constraint firstItem="OhA-zh-twa" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="8" id="tlE-gT-ptJ"/>
+                            <constraint firstItem="IhM-Qh-bzY" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="7" id="xAu-3g-bhH"/>
+                            <constraint firstItem="7v6-0n-Z0y" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="7" id="xzI-SL-BUl"/>
+                            <constraint firstItem="q2j-Lx-32a" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="7" id="yTL-72-7Ui"/>
+                            <constraint firstItem="xgd-Et-bcv" firstAttribute="top" secondItem="sNz-u2-zxl" secondAttribute="bottom" constant="5" id="zYC-Q6-9ti"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Contact" image="contactTab" id="acW-dT-cKf"/>
@@ -267,47 +274,42 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fkr-iA-9i7">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fkr-iA-9i7">
                                 <rect key="frame" x="0.0" y="30" width="600" height="60"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="La Frutera Garden Bar" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pNe-KE-5JI">
-                                        <rect key="frame" x="186" y="4" width="230" height="30"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="230" id="anp-sh-uzy"/>
-                                            <constraint firstAttribute="height" constant="30" id="hw3-8u-hV8"/>
-                                        </constraints>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="A Healthier Option to Latin Food" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="joc-BY-DB9">
-                                        <rect key="frame" x="186" y="25" width="229" height="30"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="GiS-KN-0dG"/>
-                                            <constraint firstAttribute="width" constant="229" id="f9X-CL-lpQ"/>
-                                        </constraints>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Frutera Garden Bar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JZb-NH-r1h">
+                                        <rect key="frame" x="189" y="9" width="223" height="25"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Healthier Option to Latin Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IO2-ul-5JG">
+                                        <rect key="frame" x="200" y="34" width="200" height="17"/>
                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.7603178879310345" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="joc-BY-DB9" firstAttribute="top" secondItem="Fkr-iA-9i7" secondAttribute="top" constant="25" id="PoX-1f-tGz"/>
                                     <constraint firstAttribute="height" constant="60" id="QYW-QU-Ihu"/>
-                                    <constraint firstItem="pNe-KE-5JI" firstAttribute="top" secondItem="Fkr-iA-9i7" secondAttribute="top" constant="4" id="UIa-Rt-c61"/>
+                                    <constraint firstItem="IO2-ul-5JG" firstAttribute="centerX" secondItem="Fkr-iA-9i7" secondAttribute="centerX" id="Uwd-eP-Ul7"/>
+                                    <constraint firstItem="JZb-NH-r1h" firstAttribute="centerX" secondItem="Fkr-iA-9i7" secondAttribute="centerX" id="Yde-DX-XaP"/>
                                     <constraint firstAttribute="width" constant="600" id="cpn-me-blc"/>
-                                    <constraint firstItem="pNe-KE-5JI" firstAttribute="centerX" secondItem="Fkr-iA-9i7" secondAttribute="centerX" constant="1" id="f0h-4k-RbU"/>
-                                    <constraint firstItem="joc-BY-DB9" firstAttribute="centerX" secondItem="Fkr-iA-9i7" secondAttribute="centerX" id="wxv-qJ-jcp"/>
+                                    <constraint firstItem="JZb-NH-r1h" firstAttribute="top" secondItem="Fkr-iA-9i7" secondAttribute="top" constant="9" id="kAE-Yb-h9f"/>
+                                    <constraint firstItem="IO2-ul-5JG" firstAttribute="top" secondItem="JZb-NH-r1h" secondAttribute="bottom" id="yno-bF-JqF"/>
                                 </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="cpn-me-blc"/>
+                                    </mask>
+                                </variation>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lgLogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="FVX-TS-fdI">
-                                <rect key="frame" x="185" y="100" width="231" height="236"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lfLofoPng" translatesAutoresizingMaskIntoConstraints="NO" id="FVX-TS-fdI">
+                                <rect key="frame" x="196" y="95" width="208" height="257"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="236" id="hAG-cQ-r3y"/>
-                                    <constraint firstAttribute="width" constant="231" id="tYn-Em-dib"/>
+                                    <constraint firstAttribute="height" constant="257" id="hAG-cQ-r3y"/>
+                                    <constraint firstAttribute="width" constant="208" id="tYn-Em-dib"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -316,12 +318,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.75" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="qMd-25-Eqw">
-                                <rect key="frame" x="141" y="355" width="320" height="230"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="qMd-25-Eqw">
+                                <rect key="frame" x="140" y="357" width="320" height="255"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.75703125000000004" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="aXa-rn-eJH"/>
-                                    <constraint firstAttribute="height" constant="230" id="xRq-KZ-BnE"/>
+                                    <constraint firstAttribute="height" constant="255" id="xRq-KZ-BnE"/>
                                 </constraints>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="5II-xV-w5d">
                                     <size key="itemSize" width="100" height="100"/>
@@ -364,14 +366,29 @@
                                     <outlet property="delegate" destination="wad-Jb-pbh" id="9cW-El-gVL"/>
                                 </connections>
                             </collectionView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="kdE-oA-6Dl">
+                                <rect key="frame" x="174" y="95" width="253" height="253"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="253" id="KPC-0b-4Ia"/>
+                                    <constraint firstAttribute="width" constant="253" id="xT2-ns-RHq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="FVX-TS-fdI" firstAttribute="top" secondItem="Fkr-iA-9i7" secondAttribute="bottom" constant="10" id="0hx-Lh-QvE"/>
+                            <constraint firstItem="FVX-TS-fdI" firstAttribute="top" secondItem="Fkr-iA-9i7" secondAttribute="bottom" constant="5" id="0hx-Lh-QvE"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Fkr-iA-9i7" secondAttribute="trailing" constant="-20" id="5eX-YE-8eO"/>
-                            <constraint firstItem="qMd-25-Eqw" firstAttribute="centerX" secondItem="Wx5-UD-5N0" secondAttribute="centerX" constant="1" id="Ben-xw-jHE"/>
+                            <constraint firstItem="kdE-oA-6Dl" firstAttribute="top" secondItem="Fkr-iA-9i7" secondAttribute="bottom" constant="5" id="7QI-A7-25g"/>
+                            <constraint firstItem="qMd-25-Eqw" firstAttribute="centerX" secondItem="Wx5-UD-5N0" secondAttribute="centerX" id="Ben-xw-jHE"/>
                             <constraint firstItem="Fkr-iA-9i7" firstAttribute="top" secondItem="uWk-G6-CdD" secondAttribute="bottom" constant="10" id="Ksm-bZ-wOd"/>
-                            <constraint firstItem="qMd-25-Eqw" firstAttribute="top" secondItem="FVX-TS-fdI" secondAttribute="bottom" constant="19" id="LjQ-Iz-zNq"/>
+                            <constraint firstItem="qMd-25-Eqw" firstAttribute="top" secondItem="FVX-TS-fdI" secondAttribute="bottom" constant="5" id="LjQ-Iz-zNq"/>
+                            <constraint firstItem="kdE-oA-6Dl" firstAttribute="centerX" secondItem="Wx5-UD-5N0" secondAttribute="centerX" id="jyN-KZ-0Ej"/>
                             <constraint firstItem="Fkr-iA-9i7" firstAttribute="leading" secondItem="Wx5-UD-5N0" secondAttribute="leadingMargin" constant="-20" id="qTc-CK-eEM"/>
                             <constraint firstItem="FVX-TS-fdI" firstAttribute="centerX" secondItem="Wx5-UD-5N0" secondAttribute="centerX" id="sa9-GS-gnk"/>
                         </constraints>
@@ -380,6 +397,7 @@
                     <connections>
                         <outlet property="collectionView" destination="qMd-25-Eqw" id="DWB-az-LgK"/>
                         <outlet property="logoImage" destination="FVX-TS-fdI" id="eC3-32-w3Z"/>
+                        <outlet property="secondImageView" destination="kdE-oA-6Dl" id="2XK-eT-TfR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sgT-IN-5Rh" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -397,13 +415,238 @@
                     <view key="view" contentMode="scaleToFill" id="qhy-tg-XNp">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GyS-oh-rhq">
+                                <rect key="frame" x="0.0" y="30" width="600" height="60"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Frutera Garden Bar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Imo-hm-MF6">
+                                        <rect key="frame" x="189" y="9" width="223" height="25"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Healthier Option to Latin Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LZp-zf-DeA">
+                                        <rect key="frame" x="200" y="34" width="200" height="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.76123383620689655" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="1ky-ls-avm"/>
+                                    <constraint firstAttribute="width" constant="600" id="5MT-IR-qdj"/>
+                                    <constraint firstItem="Imo-hm-MF6" firstAttribute="top" secondItem="GyS-oh-rhq" secondAttribute="top" constant="9" id="PrZ-bG-SRf"/>
+                                    <constraint firstItem="LZp-zf-DeA" firstAttribute="centerX" secondItem="GyS-oh-rhq" secondAttribute="centerX" id="eh8-Zv-LpA"/>
+                                    <constraint firstItem="LZp-zf-DeA" firstAttribute="top" secondItem="Imo-hm-MF6" secondAttribute="bottom" id="hNP-jG-NxG"/>
+                                    <constraint firstItem="Imo-hm-MF6" firstAttribute="centerX" secondItem="GyS-oh-rhq" secondAttribute="centerX" id="pAO-DQ-676"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lfLofoPng" translatesAutoresizingMaskIntoConstraints="NO" id="vqJ-iI-feB">
+                                <rect key="frame" x="196" y="95" width="208" height="257"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="257" id="Alx-JG-96y"/>
+                                    <constraint firstAttribute="width" constant="208" id="cF3-ga-g00"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="L1F-8t-F5a">
+                                <rect key="frame" x="140" y="357" width="320" height="255"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Buy 5 drinks and the 6th is on us!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgy-Vx-qkd">
+                                        <rect key="frame" x="16" y="12" width="289" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="one12" translatesAutoresizingMaskIntoConstraints="NO" id="dAW-ek-Prl">
+                                        <rect key="frame" x="24" y="51" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="Mxw-2f-8R3"/>
+                                            <constraint firstAttribute="width" constant="75" id="PaC-9z-HJi"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="two12" translatesAutoresizingMaskIntoConstraints="NO" id="zFG-FP-bLW">
+                                        <rect key="frame" x="123" y="51" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="PsI-xQ-g4o"/>
+                                            <constraint firstAttribute="height" constant="75" id="fXf-JN-6ic"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="three12" translatesAutoresizingMaskIntoConstraints="NO" id="LQ5-Dz-wtM">
+                                        <rect key="frame" x="221" y="51" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="7NB-C9-HaY"/>
+                                            <constraint firstAttribute="width" constant="75" id="Frv-7h-rLA"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="four12" translatesAutoresizingMaskIntoConstraints="NO" id="HAU-7C-c3f">
+                                        <rect key="frame" x="24" y="150" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="75" id="1YT-kl-ePl"/>
+                                            <constraint firstAttribute="height" constant="75" id="aUq-jC-ojr"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="five12" translatesAutoresizingMaskIntoConstraints="NO" id="CiX-ud-mEG">
+                                        <rect key="frame" x="123" y="150" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="FtT-zZ-1qH"/>
+                                            <constraint firstAttribute="width" constant="75" id="MZa-ls-P15"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cocktail" translatesAutoresizingMaskIntoConstraints="NO" id="5s8-vY-5d7">
+                                        <rect key="frame" x="221" y="150" width="75" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="LNS-NL-Nc0"/>
+                                            <constraint firstAttribute="width" constant="75" id="q51-qh-G7t"/>
+                                        </constraints>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bcz-4z-k1r">
+                                        <rect key="frame" x="29" y="53" width="65" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="65" id="bxr-gl-L3Q"/>
+                                            <constraint firstAttribute="height" constant="65" id="jqM-ND-wkU"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="numberOneButton:" destination="3Bg-L5-hql" eventType="touchUpInside" id="MN4-RH-z8P"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sQ7-OD-yUn">
+                                        <rect key="frame" x="128" y="53" width="65" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="NK6-8L-dFN"/>
+                                            <constraint firstAttribute="width" constant="65" id="qhu-Bg-wbs"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="numberTwoButton:" destination="3Bg-L5-hql" eventType="touchUpInside" id="gaq-YH-oX8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZXp-Vb-4OG">
+                                        <rect key="frame" x="226" y="53" width="65" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="WgE-zQ-JRn"/>
+                                            <constraint firstAttribute="width" constant="65" id="b6B-tF-Im2"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="numberThreeButton:" destination="3Bg-L5-hql" eventType="touchUpInside" id="YEo-di-tBR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l6T-4n-b6p">
+                                        <rect key="frame" x="29" y="155" width="65" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="65" id="pLf-pg-to5"/>
+                                            <constraint firstAttribute="width" constant="65" id="spS-0T-ho2"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="numberFourButton:" destination="3Bg-L5-hql" eventType="touchUpInside" id="4ny-fB-Brv"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wbY-ae-cfZ">
+                                        <rect key="frame" x="128" y="155" width="65" height="65"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="65" id="Dof-od-WAu"/>
+                                            <constraint firstAttribute="height" constant="65" id="i8h-Kb-yyd"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="numberFiveButton:" destination="3Bg-L5-hql" eventType="touchUpInside" id="qIZ-JX-xu8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dq3-Tz-6oc">
+                                        <rect key="frame" x="226" y="155" width="65" height="75"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="75" id="8eI-jW-1sM"/>
+                                            <constraint firstAttribute="width" constant="65" id="SKf-N8-hYW"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="numberSixButton:" destination="3Bg-L5-hql" eventType="touchUpInside" id="EOg-e4-dO7"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Redeem" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mrI-HO-o0v">
+                                        <rect key="frame" x="233" y="231" width="55" height="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="*one point earned per visit" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VPW-PV-jI4">
+                                        <rect key="frame" x="79" y="232" width="163" height="17"/>
+                                        <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.75643857758620692" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="dAW-ek-Prl" firstAttribute="leading" secondItem="L1F-8t-F5a" secondAttribute="leading" constant="24" id="1Wq-k9-Afu"/>
+                                    <constraint firstItem="ZXp-Vb-4OG" firstAttribute="top" secondItem="Kgy-Vx-qkd" secondAttribute="bottom" constant="20" id="1sa-7U-g8C"/>
+                                    <constraint firstItem="CiX-ud-mEG" firstAttribute="centerX" secondItem="L1F-8t-F5a" secondAttribute="centerX" id="5EU-St-ICD"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZXp-Vb-4OG" secondAttribute="trailing" constant="29" id="6bj-xw-570"/>
+                                    <constraint firstItem="CiX-ud-mEG" firstAttribute="top" secondItem="zFG-FP-bLW" secondAttribute="bottom" constant="24" id="9pI-cA-xaC"/>
+                                    <constraint firstAttribute="width" constant="320" id="ChI-Xw-Lge"/>
+                                    <constraint firstItem="HAU-7C-c3f" firstAttribute="top" secondItem="dAW-ek-Prl" secondAttribute="bottom" constant="24" id="JOY-Em-Hob"/>
+                                    <constraint firstItem="dAW-ek-Prl" firstAttribute="top" secondItem="Kgy-Vx-qkd" secondAttribute="bottom" constant="18" id="Jte-8s-qjz"/>
+                                    <constraint firstItem="l6T-4n-b6p" firstAttribute="leading" secondItem="L1F-8t-F5a" secondAttribute="leading" constant="29" id="Ma4-wl-pqX"/>
+                                    <constraint firstItem="l6T-4n-b6p" firstAttribute="top" secondItem="dAW-ek-Prl" secondAttribute="bottom" constant="29" id="PV7-Jy-hPd"/>
+                                    <constraint firstItem="VPW-PV-jI4" firstAttribute="top" secondItem="LQ5-Dz-wtM" secondAttribute="bottom" constant="106" id="VjY-Kk-OdQ"/>
+                                    <constraint firstItem="dq3-Tz-6oc" firstAttribute="top" secondItem="LQ5-Dz-wtM" secondAttribute="bottom" constant="29" id="X1R-2V-unu"/>
+                                    <constraint firstItem="Kgy-Vx-qkd" firstAttribute="centerX" secondItem="L1F-8t-F5a" secondAttribute="centerX" id="XHq-F1-MVh"/>
+                                    <constraint firstAttribute="height" constant="255" id="bWf-fR-Tf5"/>
+                                    <constraint firstAttribute="trailing" secondItem="5s8-vY-5d7" secondAttribute="trailing" constant="24" id="hXN-TI-WGv"/>
+                                    <constraint firstItem="sQ7-OD-yUn" firstAttribute="top" secondItem="Kgy-Vx-qkd" secondAttribute="bottom" constant="20" id="hdb-Xf-2OP"/>
+                                    <constraint firstItem="wbY-ae-cfZ" firstAttribute="centerX" secondItem="L1F-8t-F5a" secondAttribute="centerX" id="hqE-Cc-xkR"/>
+                                    <constraint firstItem="wbY-ae-cfZ" firstAttribute="top" secondItem="zFG-FP-bLW" secondAttribute="bottom" constant="29" id="la8-Jb-Igx"/>
+                                    <constraint firstItem="mrI-HO-o0v" firstAttribute="top" secondItem="LQ5-Dz-wtM" secondAttribute="bottom" constant="105" id="lge-6O-WDB"/>
+                                    <constraint firstItem="zFG-FP-bLW" firstAttribute="centerX" secondItem="L1F-8t-F5a" secondAttribute="centerX" id="ljy-jy-GpQ"/>
+                                    <constraint firstItem="mrI-HO-o0v" firstAttribute="centerX" secondItem="L1F-8t-F5a" secondAttribute="centerX" constant="100" id="mEx-VP-OcW"/>
+                                    <constraint firstItem="Bcz-4z-k1r" firstAttribute="top" secondItem="Kgy-Vx-qkd" secondAttribute="bottom" constant="20" id="o4j-zd-r8Q"/>
+                                    <constraint firstItem="LQ5-Dz-wtM" firstAttribute="top" secondItem="Kgy-Vx-qkd" secondAttribute="bottom" constant="18" id="p2L-ri-B8Y"/>
+                                    <constraint firstAttribute="trailing" secondItem="LQ5-Dz-wtM" secondAttribute="trailing" constant="24" id="qBK-5I-BlM"/>
+                                    <constraint firstItem="Kgy-Vx-qkd" firstAttribute="top" secondItem="L1F-8t-F5a" secondAttribute="top" constant="12" id="r3V-fA-uGc"/>
+                                    <constraint firstItem="VPW-PV-jI4" firstAttribute="centerX" secondItem="L1F-8t-F5a" secondAttribute="centerX" id="trf-ve-kiC"/>
+                                    <constraint firstItem="5s8-vY-5d7" firstAttribute="top" secondItem="LQ5-Dz-wtM" secondAttribute="bottom" constant="24" id="uJs-mc-89N"/>
+                                    <constraint firstAttribute="trailing" secondItem="dq3-Tz-6oc" secondAttribute="trailing" constant="29" id="vde-ug-3aV"/>
+                                    <constraint firstItem="HAU-7C-c3f" firstAttribute="leading" secondItem="L1F-8t-F5a" secondAttribute="leading" constant="24" id="xi8-ip-jWK"/>
+                                    <constraint firstItem="Bcz-4z-k1r" firstAttribute="leading" secondItem="L1F-8t-F5a" secondAttribute="leading" constant="29" id="xmq-mw-szA"/>
+                                    <constraint firstItem="sQ7-OD-yUn" firstAttribute="centerX" secondItem="L1F-8t-F5a" secondAttribute="centerX" id="yA4-6X-TCp"/>
+                                    <constraint firstItem="zFG-FP-bLW" firstAttribute="top" secondItem="Kgy-Vx-qkd" secondAttribute="bottom" constant="18" id="yTT-BR-OR0"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="L1F-8t-F5a" firstAttribute="centerX" secondItem="qhy-tg-XNp" secondAttribute="centerX" id="597-QP-GxX"/>
+                            <constraint firstItem="L1F-8t-F5a" firstAttribute="top" secondItem="vqJ-iI-feB" secondAttribute="bottom" constant="5" id="JUZ-tu-c9J"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="GyS-oh-rhq" secondAttribute="trailing" constant="-20" id="T7O-76-K8P"/>
+                            <constraint firstItem="GyS-oh-rhq" firstAttribute="top" secondItem="a2K-bi-N4j" secondAttribute="bottom" constant="10" id="ZI8-XN-FxF"/>
+                            <constraint firstItem="vqJ-iI-feB" firstAttribute="top" secondItem="GyS-oh-rhq" secondAttribute="bottom" constant="5" id="gDo-E3-ySL"/>
+                            <constraint firstItem="vqJ-iI-feB" firstAttribute="centerX" secondItem="qhy-tg-XNp" secondAttribute="centerX" id="hIL-va-Qbo"/>
+                            <constraint firstItem="GyS-oh-rhq" firstAttribute="leading" secondItem="qhy-tg-XNp" secondAttribute="leadingMargin" constant="-20" id="qKp-jL-DP0"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Loyalty" image="loyaltyTab" id="LhD-Dn-N9D"/>
+                    <connections>
+                        <outlet property="greenFive" destination="CiX-ud-mEG" id="AbK-9X-Cax"/>
+                        <outlet property="greenFour" destination="HAU-7C-c3f" id="iw2-yD-jpW"/>
+                        <outlet property="greenOne" destination="dAW-ek-Prl" id="sVu-z8-vZM"/>
+                        <outlet property="greenSix" destination="5s8-vY-5d7" id="MDd-LO-bys"/>
+                        <outlet property="greenThree" destination="LQ5-Dz-wtM" id="NeM-Bp-DZU"/>
+                        <outlet property="greenTwo" destination="zFG-FP-bLW" id="w9f-NS-r3d"/>
+                        <outlet property="redeemLabel" destination="mrI-HO-o0v" id="abe-bb-d9r"/>
+                        <outlet property="termsLabel" destination="VPW-PV-jI4" id="mMh-dI-43W"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ALX-zs-NLk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="731" y="1166"/>
+            <point key="canvasLocation" x="764" y="1060"/>
         </scene>
         <!--Menu-->
         <scene sceneID="wg7-f3-ORb">
@@ -417,47 +660,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view alpha="0.75" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWU-2l-q82">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="EWU-2l-q82">
                                 <rect key="frame" x="0.0" y="30" width="600" height="60"/>
                                 <subviews>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="A Healthier Option to Latin Food" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HmH-nH-t5o">
-                                        <rect key="frame" x="186" y="25" width="229" height="30"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="30" id="MO6-f4-Ur9"/>
-                                            <constraint firstAttribute="width" constant="229" id="Ot0-UO-xnB"/>
-                                        </constraints>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="La Frutera Garden Bar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mOS-yI-MA0">
+                                        <rect key="frame" x="189" y="9" width="223" height="25"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="21"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="A Healthier Option to Latin Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YpS-so-rh8">
+                                        <rect key="frame" x="200" y="34" width="200" height="17"/>
                                         <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="La Frutera Garden Bar" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xD6-Rq-ow7">
-                                        <rect key="frame" x="186" y="4" width="230" height="30"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="230" id="8FF-fv-ZSR"/>
-                                            <constraint firstAttribute="height" constant="30" id="GZm-q7-HrK"/>
-                                        </constraints>
-                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="20"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.76093750000000004" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="HmH-nH-t5o" firstAttribute="centerX" secondItem="EWU-2l-q82" secondAttribute="centerX" id="6WW-GQ-zw2"/>
-                                    <constraint firstItem="HmH-nH-t5o" firstAttribute="top" secondItem="EWU-2l-q82" secondAttribute="top" constant="25" id="6nE-bX-54l"/>
+                                    <constraint firstItem="mOS-yI-MA0" firstAttribute="top" secondItem="EWU-2l-q82" secondAttribute="top" constant="9" id="6TC-Qa-RNt"/>
                                     <constraint firstAttribute="height" constant="60" id="RYV-W2-NQh"/>
-                                    <constraint firstItem="xD6-Rq-ow7" firstAttribute="top" secondItem="EWU-2l-q82" secondAttribute="top" constant="4" id="Rrb-Nx-uQv"/>
+                                    <constraint firstItem="YpS-so-rh8" firstAttribute="centerX" secondItem="EWU-2l-q82" secondAttribute="centerX" id="Wn3-pf-vvv"/>
                                     <constraint firstAttribute="width" constant="600" id="cPh-7R-aLI"/>
-                                    <constraint firstItem="xD6-Rq-ow7" firstAttribute="centerX" secondItem="EWU-2l-q82" secondAttribute="centerX" constant="1" id="jO8-b4-VZt"/>
+                                    <constraint firstItem="YpS-so-rh8" firstAttribute="top" secondItem="mOS-yI-MA0" secondAttribute="bottom" id="pCw-7o-rpo"/>
+                                    <constraint firstItem="mOS-yI-MA0" firstAttribute="centerX" secondItem="EWU-2l-q82" secondAttribute="centerX" id="xOq-qr-zcU"/>
                                 </constraints>
                             </view>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lgLogo.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="d70-Fl-KMj">
-                                <rect key="frame" x="185" y="100" width="231" height="236"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lfLofoPng" translatesAutoresizingMaskIntoConstraints="NO" id="d70-Fl-KMj">
+                                <rect key="frame" x="196" y="95" width="208" height="257"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="236" id="8qr-4F-oC9"/>
-                                    <constraint firstAttribute="width" constant="231" id="yST-of-NOJ"/>
+                                    <constraint firstAttribute="height" constant="257" id="8qr-4F-oC9"/>
+                                    <constraint firstAttribute="width" constant="208" id="yST-of-NOJ"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -466,56 +699,518 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" alpha="0.80000000000000004" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYm-u6-Js2">
-                                <rect key="frame" x="169" y="346" width="265" height="265"/>
-                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mYm-u6-Js2">
+                                <rect key="frame" x="169" y="357" width="265" height="255"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.75765086206896548" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="265" id="f7s-QO-QFz"/>
+                                    <constraint firstAttribute="height" constant="255" id="f7s-QO-QFz"/>
                                     <constraint firstAttribute="width" constant="265" id="zdf-Rp-GeS"/>
                                 </constraints>
                                 <attributedString key="attributedText">
-                                    <fragment content="Appetizer">
+                                    <fragment content="Breakfast Arepas ">
                                         <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="19" name="Helvetica-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica-Bold"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             <integer key="NSUnderline" value="1"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment content=" ">
+                                    <fragment content="(add: chicken $2, steak $3, roasted mushrooms $2)">
                                         <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="19" name="Helvetica-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment content="Crispy Calamari $8">
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="19" name="Helvetica"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="13" name="Helvetica-Oblique"/>
+                                            <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
                                     <fragment content=" ">
                                         <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="19" name="Helvetica"/>
                                             <font key="NSOriginalFont" size="14" name="Helvetica-Bold"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content">Buffalo Wings $9 Mexican Ceviche $12
-Mexican Sampler $11
-Chicken Fingers $13 Picada Paisa $10</string>
+                                    <fragment content="•">
                                         <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="19" name="Helvetica"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Huevos Rancheros">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="Helvetica"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Corn arepa, egg, bean dip, rancheros salsa, avocado, cotija cheese ($7.50) (GF) ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Oblique"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="•Zatar Egg Arepa">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> Smashed avocado, hemp seeds, zatar, egg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Oblique"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="($7.50) (GF)  ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Oblique"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="•">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="20" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Egg Whites Spinach Arepa">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="19" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="($7.50) (GF) ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Oblique"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="•">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="20" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Huevos Pericos Omelette">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="20" name="Helvetica-Bold"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="19" name="Helvetica"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Sofrito, eggs, WW toast ($7.50)  ">
+                                        <attributes>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="14" name="Helvetica-Oblique"/>
+                                            <real key="NSKern" value="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                            <color key="NSStrokeColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                         </attributes>
                                     </fragment>
                                     <fragment>
@@ -523,80 +1218,54 @@ Chicken Fingers $13 Picada Paisa $10</string>
 Cg
 </string>
                                         <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <font key="NSFont" size="19" name="Helvetica"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" defaultTabInterval="36" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="28">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="56">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="84">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="112">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="140">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="168">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="196">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="224">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="252">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="280">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="308">
+                                                        <options/>
+                                                    </textTab>
+                                                    <textTab alignment="left" location="336">
+                                                        <options/>
+                                                    </textTab>
+                                                </tabStops>
+                                            </paragraphStyle>
                                         </attributes>
                                     </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
+                                    <fragment content="*ask about our daily specials">
                                         <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="19" name="Helvetica-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Lunch
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="19" name="Helvetica-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            <integer key="NSUnderline" value="1"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Churrasco $23
-Hamdilla $45
-Montanera $20
-Mexican Burger $24
-Baby Back Ribs $50
-Mecca $56
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="19" name="Helvetica"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content" base64-UTF8="YES">
-Cg
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="19" name="Helvetica-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Drinks
-</string>
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="19" name="Helvetica-Bold"/>
-                                            <font key="NSOriginalFont" size="14" name="Helvetica-Bold"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            <integer key="NSUnderline" value="1"/>
-                                        </attributes>
-                                    </fragment>
-                                    <fragment>
-                                        <string key="content">Beer $5
-Wine $6
-Vodka $9
-Whiskey $9
-Hamdillah $8</string>
-                                        <attributes>
-                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                            <font key="NSFont" size="19" name="Helvetica"/>
+                                            <color key="NSColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <font key="NSFont" size="15" name="Helvetica"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
                                     </fragment>
@@ -612,12 +1281,12 @@ Hamdillah $8</string>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="mYm-u6-Js2" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" constant="1" id="0YM-Ez-68J"/>
-                            <constraint firstItem="d70-Fl-KMj" firstAttribute="top" secondItem="EWU-2l-q82" secondAttribute="bottom" constant="10" id="2ap-mV-ble"/>
+                            <constraint firstItem="d70-Fl-KMj" firstAttribute="top" secondItem="EWU-2l-q82" secondAttribute="bottom" constant="5" id="2ap-mV-ble"/>
                             <constraint firstAttribute="trailingMargin" secondItem="EWU-2l-q82" secondAttribute="trailing" constant="-20" id="AO1-rd-p2O"/>
                             <constraint firstItem="EWU-2l-q82" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="10" id="Hds-7b-EGF"/>
                             <constraint firstItem="d70-Fl-KMj" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="cR2-Ww-57b"/>
                             <constraint firstItem="EWU-2l-q82" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leadingMargin" constant="-20" id="iHr-EL-2a4"/>
-                            <constraint firstItem="mYm-u6-Js2" firstAttribute="top" secondItem="d70-Fl-KMj" secondAttribute="bottom" constant="10" id="wB2-ho-W0f"/>
+                            <constraint firstItem="mYm-u6-Js2" firstAttribute="top" secondItem="d70-Fl-KMj" secondAttribute="bottom" constant="5" id="wB2-ho-W0f"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Menu" image="utensilTab" id="cPa-gy-q4n"/>
@@ -711,16 +1380,24 @@ Hamdillah $8</string>
         </scene>
     </scenes>
     <resources>
-        <image name="PHONEicon.png" width="180" height="180"/>
+        <image name="cocktail" width="256" height="256"/>
         <image name="contactTab" width="25" height="25"/>
-        <image name="facebookIcon.png" width="400" height="400"/>
+        <image name="facebook22" width="256" height="256"/>
+        <image name="five12" width="256" height="256"/>
+        <image name="four12" width="256" height="256"/>
         <image name="galleryPic2" width="25" height="25"/>
-        <image name="lgLogo.jpg" width="805" height="805"/>
+        <image name="instagram22" width="256" height="256"/>
+        <image name="lfLofoPng" width="907" height="1110"/>
+        <image name="locationIcon" width="128" height="128"/>
         <image name="loyaltyTab" width="25" height="25"/>
+        <image name="one12" width="256" height="256"/>
+        <image name="phoneIcon2" width="128" height="128"/>
+        <image name="three12" width="256" height="256"/>
+        <image name="two12" width="256" height="256"/>
         <image name="utensilTab" width="25" height="25"/>
-        <image name="yelpIcon22.png" width="200" height="200"/>
+        <image name="yelp22" width="256" height="256"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Oqx-XX-bPQ"/>
+        <segue reference="6la-nE-ntN"/>
     </inferredMetricsTieBreakers>
 </document>
