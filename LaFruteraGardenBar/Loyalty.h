@@ -14,7 +14,6 @@
 {
     MFMailComposeViewController *mailComposer;
 }
-
 @property (strong, nonatomic) IBOutlet UIImageView *greenOne;
 @property (strong, nonatomic) IBOutlet UIImageView *greenTwo;
 @property (strong, nonatomic) IBOutlet UIImageView *greenThree;

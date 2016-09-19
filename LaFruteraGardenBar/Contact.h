@@ -8,12 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "WebViewController.h"
+#import <MessageUI/MessageUI.h>
 
-@interface Contact : UIViewController
+@interface Contact : UIViewController<MFMailComposeViewControllerDelegate>
+
+{
+    MFMailComposeViewController *mailComposer;
+}
 - (IBAction)callButton:(id)sender;
 - (IBAction)facebookButton:(id)sender;
 - (IBAction)yelpButton:(id)sender;
 - (IBAction)mapButton:(id)sender;
+- (IBAction)emailButton:(id)sender;
+
 
 @property (strong,nonatomic) WebViewController *webVC;
 

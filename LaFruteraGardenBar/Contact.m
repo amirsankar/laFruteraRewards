@@ -46,6 +46,18 @@
    
 }
 
+- (IBAction)emailButton:(id)sender {
+    mailComposer = [[MFMailComposeViewController alloc]init];
+    mailComposer.mailComposeDelegate = self;
+    [mailComposer setSubject:@"La Frutera Question"];
+    
+    //[mailComposer setMessageBody: @"We look forward to seeing you again soon!" isHTML:NO];
+    
+    NSArray *usersTo = [NSArray arrayWithObject: @"amirsankar1@gmail.com"];
+    [mailComposer setToRecipients:usersTo];
+    [self presentViewController:mailComposer animated:YES completion:nil];
+}
+
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     self.webVC = [segue destinationViewController];
     
@@ -57,4 +69,16 @@
         self.webVC.urlString = @"https://www.instagram.com/explore/locations/1030667704/";
     }
 }
+
+-(void)mailComposeController:(MFMailComposeViewController *)controller
+         didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
+    if (result) {
+        NSLog(@"Result : %d",result);
+    }
+    if (error) {
+        NSLog(@"Error : %@",error);
+    }
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
 @end

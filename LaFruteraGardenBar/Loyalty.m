@@ -22,6 +22,7 @@
     backgroundImageView.image = backgroundImage;
     backgroundImageView.alpha  = 0.9;
     backgroundImageView.contentMode = UIViewContentModeScaleToFill;
+   
     self.passcode = @"4567";
     
 //    if([Private validatePassword:USERSINPUT]){ it works
@@ -45,25 +46,21 @@
     
     if ([self.numbersPresssed intValue] == 1) {
         self.greenOne.image = [UIImage imageNamed:@"redX"];
-        
     }
     if ([self.numbersPresssed intValue] == 2) {
         self.greenOne.image = [UIImage imageNamed:@"redX"];
         self.greenTwo.image = [UIImage imageNamed:@"redX"];
-        
     }
     if ([self.numbersPresssed intValue] == 3) {
         self.greenOne.image = [UIImage imageNamed:@"redX"];
         self.greenTwo.image = [UIImage imageNamed:@"redX"];
         self.greenThree.image = [UIImage imageNamed:@"redX"];
-        
     }
     if ([self.numbersPresssed intValue] == 4) {
         self.greenOne.image = [UIImage imageNamed:@"redX"];
         self.greenTwo.image = [UIImage imageNamed:@"redX"];
         self.greenThree.image = [UIImage imageNamed:@"redX"];
         self.greenFour.image = [UIImage imageNamed:@"redX"];
-        
     }
     if ([self.numbersPresssed intValue] >= 5) {
         self.greenOne.image = [UIImage imageNamed:@"redX"];
@@ -109,7 +106,7 @@
     if ([self.numbersPresssed intValue] >= 5) {
         
         UIAlertController *freeDrinkAlertController = [UIAlertController alertControllerWithTitle:@"Free drink of your choice"
-                                                                                          message:@"This one is on us!\n Show this to an employee.\n Thanks for being a loyal customer."
+                                                                                          message:@"This one is on us!\n Show this to the cashier.\n Thanks for being a loyal customer."
                                                                                    preferredStyle:UIAlertControllerStyleAlert];
         
         UIAlertAction *freeDrinkAction = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault
@@ -171,9 +168,8 @@
     } else {
     
 
-    
     UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"Security Code"
-                                                                             message:@"Hand your phone to an employee."
+                                                                             message:@"Hand your phone to the cashier."
                                                                       preferredStyle:UIAlertControllerStyleAlert];
     
     UIAlertAction *actionOk = [UIAlertAction actionWithTitle:@"Ok"

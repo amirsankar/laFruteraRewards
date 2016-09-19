@@ -58,23 +58,42 @@
                                 </userDefinedRuntimeAttributes>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aY7-2g-mxC">
-                                <rect key="frame" x="170" y="357" width="260" height="50"/>
+                                <rect key="frame" x="178" y="357" width="245" height="50"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaF-Ty-wBk">
-                                        <rect key="frame" x="49" y="5" width="162" height="40"/>
-                                        <string key="text">Mon. - Sun.
-8:00 a.m. - 5:00 p.m.</string>
-                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Email Us" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaF-Ty-wBk">
+                                        <rect key="frame" x="84" y="15" width="77" height="21"/>
+                                        <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ceY-80-isU">
+                                        <rect key="frame" x="0.0" y="0.0" width="245" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="dEg-Mm-vBY"/>
+                                            <constraint firstAttribute="width" constant="245" id="t6a-Uo-boJ"/>
+                                        </constraints>
+                                        <connections>
+                                            <action selector="emailButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="X8U-mb-3iZ"/>
+                                        </connections>
+                                    </button>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mailPic" translatesAutoresizingMaskIntoConstraints="NO" id="N5o-VO-hfg">
+                                        <rect key="frame" x="10" y="12" width="26" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="98k-Ws-0pE"/>
+                                            <constraint firstAttribute="width" constant="26" id="jEv-R6-Hq4"/>
+                                        </constraints>
+                                    </imageView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.76064116379310343" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="WqK-1w-CMB"/>
-                                    <constraint firstItem="LaF-Ty-wBk" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="top" constant="5" id="esj-KD-3VN"/>
+                                    <constraint firstItem="ceY-80-isU" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="top" id="dYK-EO-7cd"/>
+                                    <constraint firstItem="LaF-Ty-wBk" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="top" constant="15" id="esj-KD-3VN"/>
+                                    <constraint firstItem="N5o-VO-hfg" firstAttribute="centerX" secondItem="aY7-2g-mxC" secondAttribute="centerX" constant="-100" id="nOA-nc-RUv"/>
+                                    <constraint firstItem="ceY-80-isU" firstAttribute="centerX" secondItem="aY7-2g-mxC" secondAttribute="centerX" id="oxz-xi-rAZ"/>
+                                    <constraint firstItem="N5o-VO-hfg" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="top" constant="12" id="uuD-IB-lkR"/>
                                     <constraint firstItem="LaF-Ty-wBk" firstAttribute="centerX" secondItem="aY7-2g-mxC" secondAttribute="centerX" id="y4L-FF-bM4"/>
-                                    <constraint firstAttribute="width" constant="260" id="yIq-Ln-soe"/>
+                                    <constraint firstAttribute="width" constant="245" id="yIq-Ln-soe"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -83,11 +102,11 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oqR-gN-xYE">
-                                <rect key="frame" x="170" y="415" width="260" height="50"/>
+                                <rect key="frame" x="178" y="415" width="245" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.7629849137931034" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="lA0-s9-ybg"/>
-                                    <constraint firstAttribute="width" constant="260" id="qHX-FN-8GR"/>
+                                    <constraint firstAttribute="width" constant="245" id="qHX-FN-8GR"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -96,11 +115,11 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aGo-QT-hem">
-                                <rect key="frame" x="170" y="473" width="260" height="50"/>
+                                <rect key="frame" x="178" y="473" width="245" height="50"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.75549568965517233" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="Gwk-zX-Nef"/>
-                                    <constraint firstAttribute="width" constant="260" id="epM-ax-UPw"/>
+                                    <constraint firstAttribute="width" constant="245" id="epM-ax-UPw"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -109,9 +128,9 @@
                                 </userDefinedRuntimeAttributes>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OhA-zh-twa">
-                                <rect key="frame" x="170" y="417" width="260" height="50"/>
+                                <rect key="frame" x="178" y="417" width="245" height="50"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="260" id="IXM-0L-3Ap"/>
+                                    <constraint firstAttribute="width" constant="245" id="IXM-0L-3Ap"/>
                                     <constraint firstAttribute="height" constant="50" id="vm2-os-xUx"/>
                                 </constraints>
                                 <connections>
@@ -160,9 +179,9 @@
                                     <segue destination="Onf-NU-qYx" kind="show" identifier="yelp" id="Oqx-XX-bPQ"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="754-701-5977" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6L-eV-Ae8">
-                                <rect key="frame" x="247" y="431" width="106" height="20"/>
-                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Call Us" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6L-eV-Ae8">
+                                <rect key="frame" x="269" y="431" width="62" height="21"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="18"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -183,15 +202,15 @@
                                     <segue destination="Onf-NU-qYx" kind="show" identifier="instagram" id="6la-nE-ntN"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="locationIcon" translatesAutoresizingMaskIntoConstraints="NO" id="gl3-jR-HCB">
-                                <rect key="frame" x="180" y="487" width="24" height="25"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pinRed.png" translatesAutoresizingMaskIntoConstraints="NO" id="gl3-jR-HCB">
+                                <rect key="frame" x="185" y="485" width="25" height="26"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="24" id="0df-2d-UGP"/>
-                                    <constraint firstAttribute="height" constant="25" id="GBN-t4-sbC"/>
+                                    <constraint firstAttribute="width" constant="25" id="0df-2d-UGP"/>
+                                    <constraint firstAttribute="height" constant="26" id="GBN-t4-sbC"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phoneIcon2" translatesAutoresizingMaskIntoConstraints="NO" id="1RS-XG-jB1">
-                                <rect key="frame" x="181" y="429" width="22" height="22"/>
+                                <rect key="frame" x="189" y="430" width="22" height="22"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="22" id="AqV-8B-clt"/>
@@ -199,7 +218,7 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W9B-4e-Ely">
-                                <rect key="frame" x="206" y="479" width="188" height="40"/>
+                                <rect key="frame" x="211" y="479" width="188" height="40"/>
                                 <string key="text">2430 NE 13th Ave, Fort 
 Lauderdale, FL 33305</string>
                                 <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="17"/>
@@ -207,10 +226,10 @@ Lauderdale, FL 33305</string>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57r-H0-G6L">
-                                <rect key="frame" x="170" y="475" width="260" height="52"/>
+                                <rect key="frame" x="178" y="475" width="245" height="52"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="52" id="ZFv-GX-iZq"/>
-                                    <constraint firstAttribute="width" constant="260" id="jpp-NX-L8K"/>
+                                    <constraint firstAttribute="width" constant="245" id="jpp-NX-L8K"/>
                                 </constraints>
                                 <connections>
                                     <action selector="mapButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="xvY-lF-fVG"/>
@@ -221,12 +240,12 @@ Lauderdale, FL 33305</string>
                         <constraints>
                             <constraint firstItem="xgd-Et-bcv" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="0Jb-hr-KYe"/>
                             <constraint firstItem="57r-H0-G6L" firstAttribute="top" secondItem="oqR-gN-xYE" secondAttribute="bottom" constant="10" id="1o8-sN-wXf"/>
-                            <constraint firstItem="gl3-jR-HCB" firstAttribute="top" secondItem="oqR-gN-xYE" secondAttribute="bottom" constant="22" id="2iT-n4-NnT"/>
+                            <constraint firstItem="gl3-jR-HCB" firstAttribute="top" secondItem="oqR-gN-xYE" secondAttribute="bottom" constant="20" id="2iT-n4-NnT"/>
                             <constraint firstItem="aY7-2g-mxC" firstAttribute="top" secondItem="xgd-Et-bcv" secondAttribute="bottom" constant="5" id="4s4-eX-nL0"/>
                             <constraint firstItem="OSg-O2-HyL" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-90" id="5H7-72-DfK"/>
                             <constraint firstItem="aY7-2g-mxC" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="6aj-zJ-a78"/>
                             <constraint firstItem="L6L-eV-Ae8" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="AVd-pi-4ak"/>
-                            <constraint firstItem="gl3-jR-HCB" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-108" id="Ex9-aR-mzH"/>
+                            <constraint firstItem="gl3-jR-HCB" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-103" id="Ex9-aR-mzH"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sNz-u2-zxl" secondAttribute="trailing" constant="-20" id="IYb-tT-7At"/>
                             <constraint firstItem="sNz-u2-zxl" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="10" id="Ioq-al-tGL"/>
                             <constraint firstItem="OhA-zh-twa" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="JLU-zC-KcX"/>
@@ -239,15 +258,15 @@ Lauderdale, FL 33305</string>
                             <constraint firstItem="aGo-QT-hem" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="VBw-dC-P4x"/>
                             <constraint firstItem="OSg-O2-HyL" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="8" id="VId-MI-Xqt"/>
                             <constraint firstItem="Jwx-rY-sJl" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="90" id="Vew-u5-6yh"/>
-                            <constraint firstItem="1RS-XG-jB1" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-108" id="Wcv-Ny-4Uy"/>
+                            <constraint firstItem="1RS-XG-jB1" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="-100" id="Wcv-Ny-4Uy"/>
                             <constraint firstItem="sNz-u2-zxl" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leadingMargin" constant="-20" id="ahM-aB-ZoM"/>
                             <constraint firstItem="oqR-gN-xYE" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="8" id="gRx-4P-fwZ"/>
                             <constraint firstItem="7v6-0n-Z0y" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="i1E-pM-Qbs"/>
-                            <constraint firstItem="1RS-XG-jB1" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="22" id="lh6-eO-Pgj"/>
+                            <constraint firstItem="1RS-XG-jB1" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="23" id="lh6-eO-Pgj"/>
                             <constraint firstItem="q2j-Lx-32a" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="mRv-hT-Tgi"/>
                             <constraint firstItem="oqR-gN-xYE" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="o8N-wU-AZG"/>
                             <constraint firstItem="W9B-4e-Ely" firstAttribute="top" secondItem="oqR-gN-xYE" secondAttribute="bottom" constant="14" id="oeU-fw-UIe"/>
-                            <constraint firstItem="W9B-4e-Ely" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="ojp-5S-X8B"/>
+                            <constraint firstItem="W9B-4e-Ely" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" constant="5" id="ojp-5S-X8B"/>
                             <constraint firstItem="57r-H0-G6L" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="thE-5y-v4n"/>
                             <constraint firstItem="OhA-zh-twa" firstAttribute="top" secondItem="aY7-2g-mxC" secondAttribute="bottom" constant="10" id="tlE-gT-ptJ"/>
                             <constraint firstItem="IhM-Qh-bzY" firstAttribute="top" secondItem="aGo-QT-hem" secondAttribute="bottom" constant="8" id="xAu-3g-bhH"/>
@@ -3004,10 +3023,11 @@ Cg
         <image name="galleryPic2" width="25" height="25"/>
         <image name="instagram22" width="256" height="256"/>
         <image name="lfLofoPng" width="907" height="1110"/>
-        <image name="locationIcon" width="128" height="128"/>
         <image name="loyaltyTab" width="25" height="25"/>
+        <image name="mailPic" width="64" height="64"/>
         <image name="one12" width="256" height="256"/>
         <image name="phoneIcon2" width="128" height="128"/>
+        <image name="pinRed.png" width="64" height="64"/>
         <image name="three12" width="256" height="256"/>
         <image name="two12" width="256" height="256"/>
         <image name="utensilTab" width="25" height="25"/>
