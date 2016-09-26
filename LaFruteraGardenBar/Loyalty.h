@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <MessageUI/MessageUI.h>
+@import Firebase;
+
 
 @interface Loyalty : UIViewController<MFMailComposeViewControllerDelegate>
 
@@ -24,6 +26,8 @@
 @property (strong, nonatomic) IBOutlet UILabel *redeemLabel;
 @property (strong, nonatomic) IBOutlet UILabel *termsLabel;
 @property (nonatomic, strong) NSString *passcode;
+@property (nonatomic, strong) NSString *secondPasscode;
+@property (nonatomic, strong) NSString *retrievedPasscode;
 @property(retain) NSNumber *numbersPresssed;
 
 - (IBAction)numberOneButton:(id)sender;
@@ -33,10 +37,6 @@
 - (IBAction)numberFiveButton:(id)sender;
 - (IBAction)numberSixButton:(id)sender;
 
-
-
-
-
-
+@property (strong, nonatomic) FIRDatabaseReference *ref;
 
 @end

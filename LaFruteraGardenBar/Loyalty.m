@@ -22,15 +22,26 @@
     backgroundImageView.image = backgroundImage;
     backgroundImageView.alpha  = 0.9;
     backgroundImageView.contentMode = UIViewContentModeScaleToFill;
-   
-    self.passcode = @"4567";
-    
-//    if([Private validatePassword:USERSINPUT]){ it works
     
     [self.view insertSubview:backgroundImageView atIndex:0];
     
     self.numbersPresssed = 0;
+    
+    //passcode
+    self.passcode = @"4567";
+    self.ref = [[FIRDatabase database] reference];
+    
+   // [self.ref setValue:@{@"passcode": self.passcode}];
 
+    
+    [self.ref observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
+        NSDictionary *postDict = snapshot.value;
+
+        //NSLog(@"%@",postDict);
+        self.retrievedPasscode = [postDict objectForKey:@"passcode"];
+       // NSLog(@"retrieved passcodeis %@",self.retrievedPasscode);
+
+    }];
 
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     NSInteger theInteger = [defaults integerForKey:@"numbersPressed"];
@@ -113,7 +124,7 @@
                                                                 handler:^(UIAlertAction * action) {
                                                                     
                                                                     UITextField *freeDrinkTextField = freeDrinkAlertController.textFields[0];
-                                                                    if ([freeDrinkTextField.text isEqualToString:self.passcode]) {
+                                                                    if ([freeDrinkTextField.text isEqualToString:self.retrievedPasscode]) {
                                                                         
                                                                         self.greenOne.image = [UIImage imageNamed:@"oneIcon"];
                                                                         self.greenTwo.image = [UIImage imageNamed:@"twoIcon"];
@@ -179,7 +190,7 @@
                                                          
                                                          UITextField *textField = alertController.textFields[0];
                                                          
-                                                         if ([textField.text isEqualToString:self.passcode]) {
+                                                         if ([textField.text isEqualToString:self.retrievedPasscode]) {
                                                              int value = [self.numbersPresssed intValue];
                                                              self.numbersPresssed = [NSNumber numberWithInt:value + 1];
                                                              NSInteger newNumberPressedInt = [self.numbersPresssed integerValue];

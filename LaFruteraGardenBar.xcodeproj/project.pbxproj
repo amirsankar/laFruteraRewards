@@ -11,6 +11,7 @@
 		3907C8661D64ED5F00AF473A /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3907C8651D64ED5F00AF473A /* WebViewController.m */; };
 		391EB7B31D904AFA00022D30 /* pinRed.png in Resources */ = {isa = PBXBuildFile; fileRef = 391EB7B21D904AFA00022D30 /* pinRed.png */; };
 		392C8EC51D6CCC8E002B4241 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 392C8EC41D6CCC8E002B4241 /* ImageCell.m */; };
+		3930B9CC1D92FB160079A958 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3930B9CB1D92FB160079A958 /* GoogleService-Info.plist */; };
 		3941C8811D81C57500557B02 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3941C8801D81C57500557B02 /* MessageUI.framework */; };
 		3955EFCD1D63910300B47396 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955EFCC1D63910300B47396 /* main.m */; };
 		3955EFD01D63910300B47396 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955EFCF1D63910300B47396 /* AppDelegate.m */; };
@@ -21,11 +22,11 @@
 		3955EFEA1D6392EC00B47396 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955EFE91D6392EC00B47396 /* Contact.m */; };
 		3955EFED1D63931F00B47396 /* Gallery.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955EFEC1D63931F00B47396 /* Gallery.m */; };
 		3955EFF01D63937200B47396 /* Loyalty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3955EFEF1D63937200B47396 /* Loyalty.m */; };
-		396D0D971D7F5957002DA9AD /* Private.m in Sources */ = {isa = PBXBuildFile; fileRef = 396D0D961D7F5957002DA9AD /* Private.m */; };
 		3994B6671D88542500EDBAE5 /* lfLofoPng.png in Resources */ = {isa = PBXBuildFile; fileRef = 3994B6661D88542500EDBAE5 /* lfLofoPng.png */; };
 		3994B67B1D88672F00EDBAE5 /* lfBackround2.2.2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3994B67A1D88672F00EDBAE5 /* lfBackround2.2.2.png */; };
 		3994B67D1D88708300EDBAE5 /* locationIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3994B67C1D88708300EDBAE5 /* locationIcon.png */; };
 		3994B67F1D8870B500EDBAE5 /* phoneIcon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3994B67E1D8870B500EDBAE5 /* phoneIcon2.png */; };
+		DE24358531C136EED75220EC /* Pods_LaFruteraGardenBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4281859EDBC1716725503CE7 /* Pods_LaFruteraGardenBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		391EB7B21D904AFA00022D30 /* pinRed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinRed.png; sourceTree = "<group>"; };
 		392C8EC31D6CCC8E002B4241 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
 		392C8EC41D6CCC8E002B4241 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		3930B9CB1D92FB160079A958 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		3941C8801D81C57500557B02 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		3955EFC81D63910300B47396 /* LaFruteraGardenBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaFruteraGardenBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3955EFCC1D63910300B47396 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,12 +54,13 @@
 		3955EFEC1D63931F00B47396 /* Gallery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Gallery.m; sourceTree = "<group>"; };
 		3955EFEE1D63937200B47396 /* Loyalty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Loyalty.h; sourceTree = "<group>"; };
 		3955EFEF1D63937200B47396 /* Loyalty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Loyalty.m; sourceTree = "<group>"; };
-		396D0D951D7F5957002DA9AD /* Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Private.h; sourceTree = "<group>"; };
-		396D0D961D7F5957002DA9AD /* Private.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Private.m; sourceTree = "<group>"; };
 		3994B6661D88542500EDBAE5 /* lfLofoPng.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfLofoPng.png; sourceTree = "<group>"; };
 		3994B67A1D88672F00EDBAE5 /* lfBackround2.2.2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lfBackround2.2.2.png; sourceTree = "<group>"; };
 		3994B67C1D88708300EDBAE5 /* locationIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = locationIcon.png; sourceTree = "<group>"; };
 		3994B67E1D8870B500EDBAE5 /* phoneIcon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phoneIcon2.png; sourceTree = "<group>"; };
+		4281859EDBC1716725503CE7 /* Pods_LaFruteraGardenBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaFruteraGardenBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A02127E85EA3A8F16031F6B /* Pods-LaFruteraGardenBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaFruteraGardenBar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LaFruteraGardenBar/Pods-LaFruteraGardenBar.debug.xcconfig"; sourceTree = "<group>"; };
+		6BFA76021256522D6416AA73 /* Pods-LaFruteraGardenBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LaFruteraGardenBar.release.xcconfig"; path = "Pods/Target Support Files/Pods-LaFruteraGardenBar/Pods-LaFruteraGardenBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,7 @@
 			files = (
 				3941C8811D81C57500557B02 /* MessageUI.framework in Frameworks */,
 				3907C8631D64E7F700AF473A /* WebKit.framework in Frameworks */,
+				DE24358531C136EED75220EC /* Pods_LaFruteraGardenBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +84,8 @@
 				3907C8621D64E7F700AF473A /* WebKit.framework */,
 				3955EFCA1D63910300B47396 /* LaFruteraGardenBar */,
 				3955EFC91D63910300B47396 /* Products */,
+				47C0A34D0D5400FA668A3613 /* Pods */,
+				FE5EA8A02708B82D66E59C96 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,8 +104,6 @@
 				3955EFCF1D63910300B47396 /* AppDelegate.m */,
 				3955EFE81D6392EC00B47396 /* Contact.h */,
 				3955EFE91D6392EC00B47396 /* Contact.m */,
-				396D0D951D7F5957002DA9AD /* Private.h */,
-				396D0D961D7F5957002DA9AD /* Private.m */,
 				3955EFE51D6392B700B47396 /* Menu.h */,
 				3955EFE61D6392B700B47396 /* Menu.m */,
 				3955EFEB1D63931F00B47396 /* Gallery.h */,
@@ -114,6 +118,7 @@
 				3955EFDA1D63910300B47396 /* Assets.xcassets */,
 				3955EFDC1D63910300B47396 /* LaunchScreen.storyboard */,
 				3955EFDF1D63910300B47396 /* Info.plist */,
+				3930B9CB1D92FB160079A958 /* GoogleService-Info.plist */,
 				3955EFCB1D63910300B47396 /* Supporting Files */,
 			);
 			path = LaFruteraGardenBar;
@@ -132,6 +137,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		47C0A34D0D5400FA668A3613 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A02127E85EA3A8F16031F6B /* Pods-LaFruteraGardenBar.debug.xcconfig */,
+				6BFA76021256522D6416AA73 /* Pods-LaFruteraGardenBar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FE5EA8A02708B82D66E59C96 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4281859EDBC1716725503CE7 /* Pods_LaFruteraGardenBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +161,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3955EFE21D63910300B47396 /* Build configuration list for PBXNativeTarget "LaFruteraGardenBar" */;
 			buildPhases = (
+				0161AFF96858ABF7F3F24FC4 /* [CP] Check Pods Manifest.lock */,
 				3955EFC41D63910300B47396 /* Sources */,
 				3955EFC51D63910300B47396 /* Frameworks */,
 				3955EFC61D63910300B47396 /* Resources */,
+				E03CCB3B45F94FDA2AC394EA /* [CP] Embed Pods Frameworks */,
+				D43CAE996D08BDD126A1568F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -163,7 +188,7 @@
 				TargetAttributes = {
 					3955EFC71D63910300B47396 = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = TR82QUNFL3;
+						DevelopmentTeam = M386QYE9Z9;
 					};
 				};
 			};
@@ -192,6 +217,7 @@
 			files = (
 				3994B67F1D8870B500EDBAE5 /* phoneIcon2.png in Resources */,
 				3994B67D1D88708300EDBAE5 /* locationIcon.png in Resources */,
+				3930B9CC1D92FB160079A958 /* GoogleService-Info.plist in Resources */,
 				3994B67B1D88672F00EDBAE5 /* lfBackround2.2.2.png in Resources */,
 				3955EFDE1D63910300B47396 /* LaunchScreen.storyboard in Resources */,
 				3955EFDB1D63910300B47396 /* Assets.xcassets in Resources */,
@@ -203,6 +229,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0161AFF96858ABF7F3F24FC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D43CAE996D08BDD126A1568F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaFruteraGardenBar/Pods-LaFruteraGardenBar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E03CCB3B45F94FDA2AC394EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LaFruteraGardenBar/Pods-LaFruteraGardenBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3955EFC41D63910300B47396 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -211,7 +285,6 @@
 				3955EFED1D63931F00B47396 /* Gallery.m in Sources */,
 				392C8EC51D6CCC8E002B4241 /* ImageCell.m in Sources */,
 				3955EFE71D6392B700B47396 /* Menu.m in Sources */,
-				396D0D971D7F5957002DA9AD /* Private.m in Sources */,
 				3907C8661D64ED5F00AF473A /* WebViewController.m in Sources */,
 				3955EFF01D63937200B47396 /* Loyalty.m in Sources */,
 				3955EFD01D63910300B47396 /* AppDelegate.m in Sources */,
@@ -328,23 +401,31 @@
 		};
 		3955EFE31D63910300B47396 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A02127E85EA3A8F16031F6B /* Pods-LaFruteraGardenBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LaFruteraGardenBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amirsankar.LaFruteraGardenBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amirsankar.lafruterarewards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		3955EFE41D63910300B47396 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BFA76021256522D6416AA73 /* Pods-LaFruteraGardenBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LaFruteraGardenBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.amirsankar.LaFruteraGardenBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amirsankar.lafruterarewards;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};

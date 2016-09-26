@@ -3,7 +3,11 @@
 
 target 'LaFruteraGardenBar' do
   # Uncomment this line if you're using Swift or would like to use dynamic frameworks
-  # use_frameworks!
+   use_frameworks!
+   
+   pod 'Firebase/Core'
+   pod 'Firebase/Database'
+
 
   # Pods for LaFruteraGardenBar
 
