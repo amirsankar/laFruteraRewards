@@ -53,7 +53,7 @@
     
     //[mailComposer setMessageBody: @"We look forward to seeing you again soon!" isHTML:NO];
     
-    NSArray *usersTo = [NSArray arrayWithObject: @"amirsankar1@gmail.com"];
+    NSArray *usersTo = [NSArray arrayWithObject: @"Lafruteragb@gmail.com"];
     [mailComposer setToRecipients:usersTo];
     [self presentViewController:mailComposer animated:YES completion:nil];
 }
@@ -73,7 +73,7 @@
 -(void)mailComposeController:(MFMailComposeViewController *)controller
          didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
     if (result) {
-        NSLog(@"Result : %d",result);
+        NSLog(@"Result : %ld",result);
     }
     if (error) {
         NSLog(@"Error : %@",error);

@@ -28,7 +28,8 @@
     self.numbersPresssed = 0;
     
     //passcode
-    self.passcode = @"4567";
+    //self.passcode = @"4567";
+    
     self.ref = [[FIRDatabase database] reference];
     
    // [self.ref setValue:@{@"passcode": self.passcode}];
@@ -37,7 +38,7 @@
     [self.ref observeEventType:FIRDataEventTypeValue withBlock:^(FIRDataSnapshot * _Nonnull snapshot) {
         NSDictionary *postDict = snapshot.value;
 
-        //NSLog(@"%@",postDict);
+        //NSLog(@"the snpashot value is!!%@",postDict);
         self.retrievedPasscode = [postDict objectForKey:@"passcode"];
        // NSLog(@"retrieved passcodeis %@",self.retrievedPasscode);
 
@@ -113,7 +114,29 @@
 }
 
 -(void)pushedTheButton
-{    
+{
+    
+//    NSURL *scriptUrl = [NSURL URLWithString:@"http://www.google.com/m"];
+//    NSData *data = [NSData dataWithContentsOfURL:scriptUrl];
+//    if (!data){
+//        UIAlertController *noInternetAlertController = [UIAlertController alertControllerWithTitle:@"No Internet Connection"
+//                                                                                              message:@"Please connect to the internet."
+//                                                                                       preferredStyle:UIAlertControllerStyleAlert];
+//        
+//        UIAlertAction *noInternetAction = [UIAlertAction actionWithTitle:@"Ok" style:UIAlertActionStyleDefault
+//                                                                    handler:^(UIAlertAction * action) {
+//                                                                        [noInternetAlertController dismissViewControllerAnimated:YES completion:nil];
+//                                                                        
+//                                                                    }];
+//        
+//        [noInternetAlertController addAction:noInternetAction];
+//        [self presentViewController:noInternetAlertController animated:YES completion:nil];
+//        NSLog(@"Device is not connected to the Internet");
+//    }else{
+//        NSLog(@"Device is connected to the Internet");
+//    
+//    }
+    
     if ([self.numbersPresssed intValue] >= 5) {
         
         UIAlertController *freeDrinkAlertController = [UIAlertController alertControllerWithTitle:@"Free drink of your choice"
@@ -148,7 +171,7 @@
                                                                         
                                                                         [mailComposer setMessageBody: @"We look forward to seeing you again soon!" isHTML:NO];
                                                                         
-                                                                        NSArray *usersTo = [NSArray arrayWithObject: @"amirsankar1@gmail.com"];
+                                                                        NSArray *usersTo = [NSArray arrayWithObject: @"Lafruteragb@gmail.com"];
                                                                         [mailComposer setToRecipients:usersTo];
                                                                          
                                                                          [self presentViewController:mailComposer animated:YES completion:nil];
@@ -246,12 +269,13 @@
     [alertController addAction:actionCancel];
     [self presentViewController:alertController animated:YES completion:nil];
     }
+    
 }
 
 -(void)mailComposeController:(MFMailComposeViewController *)controller
          didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error{
     if (result) {
-        NSLog(@"Result : %d",result);
+        NSLog(@"Result : %ld",result);
     }
     if (error) {
         NSLog(@"Error : %@",error);
